@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vie</title>
+        
+        <!-- Link CSS Style.css file-->
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body id="sparkle">
+       <audio src="js/happywu.mp3" id="my-audio" loop="loop" autoplay="true" ></audio>
+        <div class='moon'>
+            <div class='crater1'></div>
+            <div class='crater2'></div>
+            <div class='crater3'></div>
+        </div>
+
+        
+        <canvas id="canvas"></canvas> 
+        <div id="merrywrap" class="merrywrap">
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                
+                <div class="box"></div>
+            </div>
+            
+            <div class="icons">
+                <div class="row">
+                    <span>H</span>
+                    <span>A</span>
+                    <span>P</span>
+                    <span>P</span>
+                    <span>Y</span>
+                    
+                </div>
+                <div class="row">
+                    <span>M</span>
+                    <span>O</span>
+                    <span>T</span>
+                    <span>M</span>
+                    <span>O</span>
+                    <span>T</span>
+                </div>
+                
+                <div class="row">
+                    <span>A</span>
+                    <span>D</span>
+                    <span>I</span>
+                </div>
+                <div class="row">
+                    <span>I</span>
+                    <span>L</span>
+                    <span>O</span>
+                    <span>V</span>
+                    <span>E</span>
+                    <span>Y</span>
+                    <span>O</span>
+                    <span>U</span>
+                </div>
+            </div>
+        </div>
+   
+        <div id="img">
+        </div>
+        
+        <script src="js/index.js"></script>
+        <script src="lib/dist/sparkle.min.js"></script>
+        <script>
+          document.getElementById("sparkle").sparkle({
+            count: 30
+          });
+
+        
+     
+        
+        </script>
+    </body>
+</html>
